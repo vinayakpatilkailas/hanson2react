@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color:aqua;
+}
+.Feedback {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ h1 {
+ color: blueviolet;
+  font-size: 50px;
+  margin: 2rem;
+  border-bottom: 2px solid ;
+  padding: 10px;
+ }
+label {
+  font-size:25px;
+  color:darkslategray;
+  padding-right: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.Feedback form {
+  display: flex;
+  height: 25vh;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding: 2rem;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+.input input {
+  width: 15rem;
+  height: 2rem;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 20px;
+  
+}
+.Button {
+  width: 250px;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  margin: auto;
+  color:orangered;
+  background-color:green;
+  cursor: pointer;
+  margin-top: 50px;
+  border:none;
+  border-radius: 20px;
+  
+}
+.Button:hover {
+  color:yellow;
+  background-color:blueviolet;
+}
+.Parent {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  background-color:cornflowerblue;
+  min-height: 30vh;
+  margin: 8rem auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.Child2 {
+  display: flex;
+  background-color:mediumspringgreen;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1rem 0;
+  height: 3rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.Child2 p {
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.Child1 {
+  min-width: 615px;
+}
+
+   
+
